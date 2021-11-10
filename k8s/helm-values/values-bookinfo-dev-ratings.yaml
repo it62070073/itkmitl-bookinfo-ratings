@@ -10,7 +10,7 @@ ingress:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/rewrite-target: /$2
   host: itkmitl.bookinfo.dev.opsta.net
-  path: "/student33/ratings(/|$)(.*)"
+  path: "/student22/ratings(/|$)(.*)"
   serviceType: ClusterIP
 extraEnv:
   SERVICE_VERSION: v2
